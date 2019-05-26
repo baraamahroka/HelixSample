@@ -1,0 +1,119 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{62EB5D20-537B-4FD8-A23B-305A3771BC5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{88134334-EE43-4914-BBC1-05054E840251}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{E74B082F-2ADF-435F-BEE2-6F5435782670}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{688D5565-089C-4F81-9CDF-AD27A8C237C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{BE2D1A96-FDBA-4B9A-A7CB-F6DBD56CD3F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixSample.Common.Web", "src\Project\Common\Code\HelixSample.Common.Web.csproj", "{35D6C011-7650-4FD1-8DF9-9288C8FD9D59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixSample.Feature.Sample", "src\Feature\Sample\Code\HelixSample.Feature.Sample.csproj", "{BFA844E6-E0F2-471D-9B1B-541F0F5519D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelixSample", "HelixSample", "{18B454DB-CF6E-45AE-835A-68AF39F93E7C}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "HelixSample.Common.Web.Master", "src\Project\Common\TDS\Master\HelixSample.Common.Web.Master.scproj", "{60D16376-0EE3-4130-B21A-EC74A8B165A4}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "HelixSample.Project.Web.Master", "src\Project\HelixSample\TDS\Master\HelixSample.Project.Web.Master.scproj", "{03BE2EC8-3F89-4904-A7B3-79DCECD72942}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "HelixSample.Project.WebBundle", "src\Project\HelixSample\TDS\Bundle\HelixSample.Project.WebBundle.scproj", "{F426AD27-7052-44DA-99FB-5C10298116FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixSample.Project.Web", "src\Project\HelixSample\Code\HelixSample.Project.Web.csproj", "{DF3D0121-656B-475B-A325-A96F62B66954}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "HelixSample.Feature.Sample.Master", "src\Feature\Sample\TDS\Master\HelixSample.Feature.Sample.Master.scproj", "{E95609B5-079D-4A25-A358-72D6D9BDA95B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Config", "_Config", "{5E7EB41D-9D36-428F-90D1-F873301B3C8D}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AzurePaaS|Any CPU = AzurePaaS|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35D6C011-7650-4FD1-8DF9-9288C8FD9D59}.AzurePaaS|Any CPU.ActiveCfg = AzurePaaS|Any CPU
+		{35D6C011-7650-4FD1-8DF9-9288C8FD9D59}.AzurePaaS|Any CPU.Build.0 = AzurePaaS|Any CPU
+		{35D6C011-7650-4FD1-8DF9-9288C8FD9D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D6C011-7650-4FD1-8DF9-9288C8FD9D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D6C011-7650-4FD1-8DF9-9288C8FD9D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D6C011-7650-4FD1-8DF9-9288C8FD9D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA844E6-E0F2-471D-9B1B-541F0F5519D4}.AzurePaaS|Any CPU.ActiveCfg = AzurePaaS|Any CPU
+		{BFA844E6-E0F2-471D-9B1B-541F0F5519D4}.AzurePaaS|Any CPU.Build.0 = AzurePaaS|Any CPU
+		{BFA844E6-E0F2-471D-9B1B-541F0F5519D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA844E6-E0F2-471D-9B1B-541F0F5519D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA844E6-E0F2-471D-9B1B-541F0F5519D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA844E6-E0F2-471D-9B1B-541F0F5519D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D16376-0EE3-4130-B21A-EC74A8B165A4}.AzurePaaS|Any CPU.ActiveCfg = AzurePaaS|Any CPU
+		{60D16376-0EE3-4130-B21A-EC74A8B165A4}.AzurePaaS|Any CPU.Build.0 = AzurePaaS|Any CPU
+		{60D16376-0EE3-4130-B21A-EC74A8B165A4}.AzurePaaS|Any CPU.Deploy.0 = AzurePaaS|Any CPU
+		{60D16376-0EE3-4130-B21A-EC74A8B165A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D16376-0EE3-4130-B21A-EC74A8B165A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D16376-0EE3-4130-B21A-EC74A8B165A4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{60D16376-0EE3-4130-B21A-EC74A8B165A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D16376-0EE3-4130-B21A-EC74A8B165A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D16376-0EE3-4130-B21A-EC74A8B165A4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{03BE2EC8-3F89-4904-A7B3-79DCECD72942}.AzurePaaS|Any CPU.ActiveCfg = AzurePaaS|Any CPU
+		{03BE2EC8-3F89-4904-A7B3-79DCECD72942}.AzurePaaS|Any CPU.Build.0 = AzurePaaS|Any CPU
+		{03BE2EC8-3F89-4904-A7B3-79DCECD72942}.AzurePaaS|Any CPU.Deploy.0 = AzurePaaS|Any CPU
+		{03BE2EC8-3F89-4904-A7B3-79DCECD72942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BE2EC8-3F89-4904-A7B3-79DCECD72942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BE2EC8-3F89-4904-A7B3-79DCECD72942}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{03BE2EC8-3F89-4904-A7B3-79DCECD72942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BE2EC8-3F89-4904-A7B3-79DCECD72942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03BE2EC8-3F89-4904-A7B3-79DCECD72942}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F426AD27-7052-44DA-99FB-5C10298116FF}.AzurePaaS|Any CPU.ActiveCfg = AzurePaaS|Any CPU
+		{F426AD27-7052-44DA-99FB-5C10298116FF}.AzurePaaS|Any CPU.Build.0 = AzurePaaS|Any CPU
+		{F426AD27-7052-44DA-99FB-5C10298116FF}.AzurePaaS|Any CPU.Deploy.0 = AzurePaaS|Any CPU
+		{F426AD27-7052-44DA-99FB-5C10298116FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F426AD27-7052-44DA-99FB-5C10298116FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F426AD27-7052-44DA-99FB-5C10298116FF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F426AD27-7052-44DA-99FB-5C10298116FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F426AD27-7052-44DA-99FB-5C10298116FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F426AD27-7052-44DA-99FB-5C10298116FF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DF3D0121-656B-475B-A325-A96F62B66954}.AzurePaaS|Any CPU.ActiveCfg = AzurePaaS|Any CPU
+		{DF3D0121-656B-475B-A325-A96F62B66954}.AzurePaaS|Any CPU.Build.0 = AzurePaaS|Any CPU
+		{DF3D0121-656B-475B-A325-A96F62B66954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3D0121-656B-475B-A325-A96F62B66954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3D0121-656B-475B-A325-A96F62B66954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3D0121-656B-475B-A325-A96F62B66954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95609B5-079D-4A25-A358-72D6D9BDA95B}.AzurePaaS|Any CPU.ActiveCfg = AzurePaaS|Any CPU
+		{E95609B5-079D-4A25-A358-72D6D9BDA95B}.AzurePaaS|Any CPU.Build.0 = AzurePaaS|Any CPU
+		{E95609B5-079D-4A25-A358-72D6D9BDA95B}.AzurePaaS|Any CPU.Deploy.0 = AzurePaaS|Any CPU
+		{E95609B5-079D-4A25-A358-72D6D9BDA95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95609B5-079D-4A25-A358-72D6D9BDA95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95609B5-079D-4A25-A358-72D6D9BDA95B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E95609B5-079D-4A25-A358-72D6D9BDA95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95609B5-079D-4A25-A358-72D6D9BDA95B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95609B5-079D-4A25-A358-72D6D9BDA95B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{688D5565-089C-4F81-9CDF-AD27A8C237C5} = {62EB5D20-537B-4FD8-A23B-305A3771BC5F}
+		{BE2D1A96-FDBA-4B9A-A7CB-F6DBD56CD3F1} = {E74B082F-2ADF-435F-BEE2-6F5435782670}
+		{35D6C011-7650-4FD1-8DF9-9288C8FD9D59} = {BE2D1A96-FDBA-4B9A-A7CB-F6DBD56CD3F1}
+		{BFA844E6-E0F2-471D-9B1B-541F0F5519D4} = {688D5565-089C-4F81-9CDF-AD27A8C237C5}
+		{18B454DB-CF6E-45AE-835A-68AF39F93E7C} = {E74B082F-2ADF-435F-BEE2-6F5435782670}
+		{60D16376-0EE3-4130-B21A-EC74A8B165A4} = {BE2D1A96-FDBA-4B9A-A7CB-F6DBD56CD3F1}
+		{03BE2EC8-3F89-4904-A7B3-79DCECD72942} = {18B454DB-CF6E-45AE-835A-68AF39F93E7C}
+		{F426AD27-7052-44DA-99FB-5C10298116FF} = {18B454DB-CF6E-45AE-835A-68AF39F93E7C}
+		{DF3D0121-656B-475B-A325-A96F62B66954} = {18B454DB-CF6E-45AE-835A-68AF39F93E7C}
+		{E95609B5-079D-4A25-A358-72D6D9BDA95B} = {688D5565-089C-4F81-9CDF-AD27A8C237C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC40213A-D710-46EE-93E8-1D52E20E891C}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
